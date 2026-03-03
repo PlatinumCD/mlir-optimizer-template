@@ -1,0 +1,12 @@
+{
+  "optimizer_name": "my",
+  "dialect_name": "MyDialect",
+  "project_name": "{{ cookiecutter.optimizer_name }} MLIR Project",
+  "project_slug": "{{ cookiecutter.optimizer_name }}-mlir",
+  "dialect_namespace": "{{ cookiecutter.dialect_name|lower }}",
+  "cpp_namespace": "{{ cookiecutter.optimizer_name|replace('-', '_') }}_project",
+  "tool_name": "{{ cookiecutter.optimizer_name }}-mlir-opt",
+  "include_prefix": "{{ cookiecutter.optimizer_name }}-mlir",
+  "min_cmake_version": "3.22",
+  "cxx_standard": "20"
+}
