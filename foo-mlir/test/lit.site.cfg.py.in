@@ -1,0 +1,5 @@
+@LIT_SITE_CFG_IN_HEADER@
+
+config.foo_mlir_tools_dir = "@CMAKE_BINARY_DIR@/bin"
+config.foo_mlir_obj_root = "@CMAKE_BINARY_DIR@"
+config.llvm_tools_dir = "@LLVM_TOOLS_DIR@"

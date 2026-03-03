@@ -52,13 +52,13 @@ python3 -m pip install --user cookiecutter
 Generate a new project from this template:
 
 ```bash
-cookiecutter <path-or-git-url-to-this-template>
+cookiecutter https://github.com/PlatinumCD/mlir-optimizer-template
 ```
 
 Example:
 
 ```bash
-cookiecutter <path-or-git-url-to-this-template> --no-input \
+cookiecutter https://github.com/PlatinumCD/mlir-optimizer-template --no-input \
   optimizer_name=foo \
   dialect_name=Bar
 ```
@@ -160,7 +160,7 @@ The template repository contains cookiecutter source files such as:
 - `cookiecutter.json`
 - `{{cookiecutter.project_slug}}/`
 
-A generated project is a separate output directory such as:
+A generated project example is in this repository:
 
 - `foo-mlir/`
 
